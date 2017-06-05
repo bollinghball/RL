@@ -111,7 +111,7 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #0E5A95;
 	color: #FFF;
 	text-shadow: none;
 }
@@ -165,7 +165,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #0E5A95;
 }
 
 a:hover { color: #222; }
@@ -1181,7 +1181,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { color: #0E5A95; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -1331,7 +1331,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title:hover > a { background-color: transparent; }
 
-#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover { color: #1ABC9C; }
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover { color: #0E5A95; }
 
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title.sub-menu > a,
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title.sub-menu:hover > a { background: none; }
@@ -1750,7 +1750,7 @@ body.top-search-open #top-search a i.icon-line-cross {
 	font-size: 16px;
 }
 
-#top-cart > a:hover { color: #1ABC9C; }
+#top-cart > a:hover { color: #0E5A95; }
 
 #top-search form {
 	opacity: 0;
@@ -1835,7 +1835,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 	height: 16px;
 	line-height: 16px;
 	text-align: center;
-	background-color: #1ABC9C;
+	background-color: #0E5A95;
 	border-radius: 50%;
 }
 
@@ -1928,7 +1928,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 	font-weight: 600;
 }
 
-.top-cart-item-desc a:hover { color: #1ABC9C !important; }
+.top-cart-item-desc a:hover { color: #0E5A95 !important; }
 
 .top-cart-item-desc span.top-cart-item-price {
 	display: block;
@@ -2353,7 +2353,7 @@ body:not(.device-touch) #page-menu nav li a {
 
 	#page-menu.dots-menu nav li a:hover { background-color: rgba(0,0,0,0.7) }
 
-	#page-menu.dots-menu nav li.current a { background-color: #1ABC9C; }
+	#page-menu.dots-menu nav li.current a { background-color: #0E5A95; }
 
 	#page-menu.dots-menu nav li div {
 		position: absolute;
@@ -3049,7 +3049,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	left: 15px;
 	z-index: 20;
 	max-width: 550px;
-	color: #EEE;
+	color: #333;
 	font-size: 22px;
 	font-weight: 300;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
@@ -3388,7 +3388,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .breadcrumb a { color: #555; }
 
-.breadcrumb a:hover { color: #1ABC9C; }
+.breadcrumb a:hover { color: #0E5A95; }
 
 .breadcrumb i { width: auto !important; }
 
@@ -3593,7 +3593,7 @@ body:not(.device-touch) .grid-container {
 
 .portfolio-filter li:last-child a { border-radius: 0 4px 4px 0; }
 
-.portfolio-filter li a:hover { color: #1ABC9C; }
+.portfolio-filter li a:hover { color: #0E5A95; }
 
 .portfolio-filter li.activeFilter a {
 	color: #FFF !important;
@@ -3791,7 +3791,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 
 .portfolio-desc h3 a { color: #222; }
 
-.portfolio-desc h3 a:hover { color: #1ABC9C; }
+.portfolio-desc h3 a:hover { color: #0E5A95; }
 
 .portfolio-desc span {
 	display: block;
@@ -4592,7 +4592,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 .iportfolio:hover a.center-icon { opacity: 1; }
 
 .portfolio-overlay a:hover {
-	color: #1ABC9C;
+	color: #0E5A95;
 	background-color: #EEE;
 }
 
@@ -4903,7 +4903,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 
 #portfolio-navigation a:first-child { margin-left: 0; }
 
-#portfolio-navigation a:hover { color: #1ABC9C; }
+#portfolio-navigation a:hover { color: #0E5A95; }
 
 #portfolio-ajax-show #portfolio-navigation {
 	top: 0;
@@ -4978,7 +4978,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 
 .entry-title h2 a { color: #333; }
 
-.entry-title h2 a:hover { color: #1ABC9C; }
+.entry-title h2 a:hover { color: #0E5A95; }
 
 .entry-meta {
 	margin: 10px -10px -15px 0;
@@ -5013,7 +5013,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 
 .entry-meta li a { color: #999; }
 
-.entry-meta li a:hover { color: #1ABC9C; }
+.entry-meta li a:hover { color: #0E5A95; }
 
 .entry-meta li:first-child:before { display: none; }
 
@@ -5401,7 +5401,7 @@ body:not(.device-touch) .entry-link {
 .ipost .entry-title h4 a { color: #333; }
 
 .ipost .entry-title h3 a:hover,
-.ipost .entry-title h4 a:hover { color: #1ABC9C; }
+.ipost .entry-title h4 a:hover { color: #0E5A95; }
 
 .ipost .entry-meta { margin-right: -10px; }
 
@@ -5505,7 +5505,7 @@ body:not(.device-touch) .entry-link {
 .mpost .entry-title h4 a { color: #333; }
 
 .spost .entry-title h4 a:hover,
-.mpost .entry-title h4 a:hover { color: #1ABC9C; }
+.mpost .entry-title h4 a:hover { color: #0E5A95; }
 
 .spost .entry-meta { margin: 8px -10px 0 0; }
 
@@ -5681,7 +5681,7 @@ body:not(.device-touch) .entry-link {
 	color: #333;
 }
 
-.comment-content .comment-author a:hover { color: #1ABC9C; }
+.comment-content .comment-author a:hover { color: #0E5A95; }
 
 .comment-content .comment-author span { display: block; }
 
@@ -6661,7 +6661,7 @@ body:not(.device-touch) .button {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #1ABC9C; }
+.button.button-dark:hover { background-color: #0E5A95; }
 
 .button.button-mini {
 	padding: 0 14px;
@@ -9492,7 +9492,7 @@ ul.tab-nav li a i {
 	border-color: rgba(0,0,0,0.1) !important;
 	color: #FFF !important;
 	font-weight: 600;
-	background-color: #1ABC9C !important;
+	background-color: #0E5A95 !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
@@ -11600,7 +11600,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+#gotoTop:hover { background-color: #444; }
 
 
 /* ----------------------------------------------------------------
