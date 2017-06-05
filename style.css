@@ -140,7 +140,15 @@ dl, dt, dd, ol, ul, li {
 }
 
 .how__image {
-	width: 50%;
+
+	height: 12rem;
+	max-width: initial;
+	width: auto;
+
+	@media all and (min-width: 768px) {
+		width: 50%;
+	}
+	
 }
 
 .flex {
@@ -1243,7 +1251,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 #primary-menu ul ul li:hover > a {
 	background-color: #F9F9F9;
 	padding-left: 18px;
-	color: #1ABC9C;
+	color: #0E5A95;
 }
 
 #primary-menu ul ul > li.sub-menu > a,
@@ -3065,7 +3073,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .slider-caption h2 {
-	font-size: 64px;
+	font-size: 55px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -6819,7 +6827,7 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-	background-color: #1ABC9C !important;
+	background-color: #0E5A95 !important;
 	opacity: 0.9;
 }
 
@@ -9821,7 +9829,7 @@ body:not(.device-touch) .clients-grid li a {
 	width: 6px !important;
 	height: 6px !important;
 	border: none;
-	background-color: #1ABC9C;
+	background-color: #0E5A95;
 	opacity: 0.5;
 }
 
