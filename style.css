@@ -1045,7 +1045,7 @@ body.stretched #header.full-header .container {
 #header.full-header #logo {
 	padding-right: 30px;
 	margin-right: 30px;
-	border-right: 1px solid #EEE;
+	/*border-right: 1px solid #EEE;*/
 }
 
 #header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
@@ -1058,11 +1058,29 @@ body.stretched #header.full-header .container {
 #logo img {
 	display: block;
 	max-width: 100%;
+	
 }
 
 #logo a.standard-logo { display: block; }
 
 #logo a.retina-logo { display: none; }
+
+#logo .retina-logo img {
+	
+	height: auto !important;
+	padding-top: 2rem !important;
+	margin: 0 auto !important;
+	width: 75% !important;
+}
+
+	@media all and (min-width: 768px) {
+		#logo .retina-logo img {
+			height: auto !important; 
+			padding-top: 1rem !important;
+			width: auto !important;
+	}
+}
+
 
 
 /* ----------------------------------------------------------------
