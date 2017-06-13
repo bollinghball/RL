@@ -200,6 +200,10 @@ img.header-logo {
 	display: flex;
 }
 
+.flex1 {
+	flex: 1;
+}
+
 .flex-center {
 	align-items: center;
     justify-content: center;
@@ -213,8 +217,16 @@ img.header-logo {
 	align-items: flex-start;
 }
 
+.column {
+	flex-direction: column;
+}
+
 .bb {
 	border-bottom: 2px solid black;
+}
+
+.centered {
+	margin: 0 auto;
 }
 
 
