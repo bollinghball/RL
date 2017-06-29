@@ -1,6 +1,6 @@
 {
     "scss": {
-        "src": "styles.css",
+        "src": "styles/**/*.scss",
         "dest": "styles"
     },
     "js": {
