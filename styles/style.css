@@ -145,6 +145,17 @@ dl, dt, dd, ol, ul, li {
 	}
 }
 
+.fb-link {
+	color: #fff;
+}
+
+.email-link {
+	color: #333;
+}
+
+.fb-link:hover {
+	color: #333;
+}
 
 .how__image {
 
@@ -166,6 +177,10 @@ dl, dt, dd, ol, ul, li {
 	padding-left: 4rem;
 	padding-right: 4rem;
     border-radius: 1rem;
+}
+
+.left {
+	margin-left: 1.5rem;
 }
 
 .height {
