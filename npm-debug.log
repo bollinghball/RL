@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/bolling/.nvm/versions/node/v7.2.1/bin/node',
+1 verbose cli   '/Users/bolling/.nvm/versions/node/v7.2.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'scss-compile' ]
+2 info using npm@3.10.10
+3 info using node@v7.2.1
+4 verbose run-script [ 'prescss-compile', 'scss-compile', 'postscss-compile' ]
+5 info lifecycle @~prescss-compile: @
+6 silly lifecycle @~prescss-compile: no script for prescss-compile, continuing
+7 info lifecycle @~scss-compile: @
+8 verbose lifecycle @~scss-compile: unsafe-perm in lifecycle true
+9 verbose lifecycle @~scss-compile: PATH: /Users/bolling/.nvm/versions/node/v7.2.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/bolling/Projects/RL/node_modules/.bin:/Users/bolling/.nvm/versions/node/v7.2.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+10 verbose lifecycle @~scss-compile: CWD: /Users/bolling/Projects/RL
+11 silly lifecycle @~scss-compile: Args: [ '-c', 'node-sass -rw styles/scss -o styles/css' ]
+12 info lifecycle @~scss-compile: Failed to exec scss-compile script
+13 verbose stack Error: @ scss-compile: `node-sass -rw styles/scss -o styles/css`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/Users/bolling/.nvm/versions/node/v7.2.1/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:885:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid @
+15 verbose cwd /Users/bolling/Projects/RL
+16 error Darwin 16.3.0
+17 error argv "/Users/bolling/.nvm/versions/node/v7.2.1/bin/node" "/Users/bolling/.nvm/versions/node/v7.2.1/bin/npm" "run" "scss-compile"
+18 error node v7.2.1
+19 error npm  v3.10.10
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error @ scss-compile: `node-sass -rw styles/scss -o styles/css`
+24 error spawn ENOENT
+25 error Failed at the @ scss-compile script 'node-sass -rw styles/scss -o styles/css'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the  package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     node-sass -rw styles/scss -o styles/css
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
