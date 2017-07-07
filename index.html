@@ -29,15 +29,15 @@
 	<div id="wrapper" class="clearfix">
 		<!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
-			<div id="header-wrap">
+		<header id="header" class="transparent-header full-header sticky-header" data-sticky-class="not-dark">
+			<div id="header-wrap" class="not-dark">
 				<div class="container clearfix">
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logonomascot.png"><img src="images/logonomascot.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logonomascot.png"><img src="images/logonomascot.png" class="header-logo" alt="Canvas Logo" style=""></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="images/twocolorlogo.svg"><img src="images/twocolorlogo.svg" alt="RumbleLab Logo"></a>
+						<!--<a href="index.html" class="retina-logo" data-dark-logo="images/logonomascot.png"><img src="images/logonomascot.png" class="header-logo" alt="Canvas Logo" style=""></a>-->
 					</div>
 					<!-- #logo end -->
 					<!-- Primary Navigation
@@ -67,8 +67,8 @@
 								</a>
 							</li>-->
 							<li>
-								<a href="/shop.html">
-									<div>Shop</div>
+								<a class="shopNow" href="/shop.html">
+									<div class="shop">Shop Now</div>
 								</a>
 							</li>
 						</ul>
@@ -82,11 +82,11 @@
 			<div class="slider-parallax-inner">
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide" style="background: url('images/Fankids.org-4-building-toys.jpg'); background-size: cover;">
+						<div class="swiper-slide" style="background: url('images/Hero-Image-Overlay.jpg'); background-size: cover; background-position: 50% 50%;">
 							<div class="container clearfix">
 								<div class="slider-caption">
-									<h2 data-caption-animate="fadeInUp">Have Fun.<br>Build Stuff.<br>Learn Together.</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">The Challenge Crate is a perfectly curated box of projects to inspire young makers.</p>
+									<h2 data-caption-animate="fadeInUp" style="color:white;">Have Fun.<br>Invent Stuff.<br>Learn Together.</h2>
+									<p data-caption-animate="fadeInUp" style="color:white;" data-caption-delay="200">Awesome projects to help teach kids handy skills.</p>
 									<div class="container clearfix">
 										<div class="row clearfix">
 											<!--<a href="#" class="button button-dark button-rounded button-large noleftmargin topmargin-sm">See the Magic</a>-->
@@ -115,7 +115,7 @@
 					<div class="row clearfix bottommargin common-height">
 						<div class="col-md-6 center">
 							<div class="topmargin" data-animate="fadeIn">
-								<img class="how__image" src="images/desk_sit.png">
+								<img class="how__image" src="images/momorder.svg">
 							</div>
 						</div>
 						<div class="col-md-6 center">
@@ -130,7 +130,7 @@
 					<div class="row clearfix bottommargin-lg common-height">
 						<div class="topmargin col-md-6 center">
 							<div class="" data-animate="fadeIn">
-								<img class="how__image" src="images/rumbles_crush.png">
+								<img class="how__image" src="images/Dadandsonanimate.svg">
 							</div>
 						</div>
 						<div class="col-md-6 center">
@@ -145,7 +145,7 @@
 					<div class="row clearfix bottommargin-lg common-height">
 						<div class="col-md-6 center">
 							<div class="" data-animate="fadeIn">
-								<img class="how__image" src="images/rumble_plane.png">
+								<img class="how__image" src="images/plane.svg">
 							</div>
 						</div>
 						<div class="col-md-6 center">
@@ -160,23 +160,33 @@
 					</div>
 				</div>
 			</div>
-			<div>
+			<div style="background-color:#fafafa;">
 				<div id="expect" class="container clearfix">
-					<div class="flex bottommargin centered">
-						<div class="topmargin tright flex1">
-							<img class="rumble_head rightmargin" src="images/RumbleHead.png">
-						</div>
-						<div class="topmargin flex1">
-							<div class="flex centered column">
-								<h2 class="">Why Rumble?</h2>
+					<!--<div class="heading-block center">
+						<div class="flex bottommargin">-->
+							<!--<div class="topmargin tright flex1">
+								<img class="rumble_head rightmargin" src="images/RumbleHead.png">
+							</div>-->
+							<!--<div class="topmargin">
+								<div class="">
+									<h2>Why Rumble?</h2>
+									<span class="divcenter">There are endless possibilites on how a challenge crate might help your child.</span>
+								</div>
 							</div>
+						</div>
+					</div>-->
+					<div class="row clearfix">
+						<div class="heading-block center topmargin">
+							<h2>Why Rumble?</h2>
+							<span class="divcenter">Take a look at just a few ways the Challenge Crate can positively affect your child.</span>
 						</div>
 					</div>
 					<div class="row clearfix bottommargin-sm common-height">
 						<div class="col-md-6 center">
 							<div class="topmargin">
 								<div class="" data-animate="fadeIn">
-									<h2>A Fun-Family Activity</h2>
+									<img class="round middle" src="images/DadandSon.svg">
+									<h3 class="topmargin">A Fun-Family Activity</h3>
 									<p>Build with your child and teach them DIY skills, whether you have them or not.</p>
 								</div>
 							</div>
@@ -184,7 +194,8 @@
 						<div class="col-md-6 center">
 							<div class="topmargin">
 								<div class="" data-animate="fadeIn" data-delay="200">
-									<h2>A Break From Screens</h2>
+									<img class="round middle" src="images/HandsonLearning.svg">
+									<h3 class="topmargin">A Break From Screens</h3>
 									<p>Getting your hands on something is so much fun.</p>
 								</div>
 							</div>
@@ -195,7 +206,8 @@
 						<div class="col-md-6 center">
 							<div class="topmargin">
 								<div class="" data-animate="fadeIn" data-delay="400">
-									<h2>STEM Learning</h2>
+									<img class="round middle" src="images/STEMLearning.svg">
+									<h3 class="topmargin">STEM Learning</h3>
 									<p> Super convenient homeschool activities.</p>
 								</div>
 							</div>
@@ -203,7 +215,8 @@
 						<div class="col-md-6 center">
 							<div class="topmargin">
 								<div class="" data-animate="fadeIn" data-delay="600">
-									<h2>Challenge My DIY'er</h2>
+									<img class="round middle" src="images/ChallengeMaker.svg">
+									<h3 class="topmargin">Challenge My DIY'er</h3>
 									<p>For the gifted kids. The ones who are always asking "Why?".</p>
 								</div>
 							</div>
@@ -214,14 +227,14 @@
 				<div class="clear"></div>
 				<div id="testimonials" class="section parallax nobottommargin" style="background-color: #fff;" data-stellar-background-ratio="0.4">
 					<div class="heading-block center">
-						<h3>What Customers are Saying</h3>
+						<h2>What Customers are Saying</h2>
 					</div>
 					<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
 						<div class="flexslider">
 							<div class="slider-wrap">
 								<div class="slide">
 									<div class="testi-image">
-										<a href="#"><img src="images/teamburke.png" alt="Customer Testimonails"></a>
+										<a><img src="images/teamburke.png" alt="Customer Testimonails"></a>
 									</div>
 									<div class="testi-content">
 										<p>Ugh, this is hard. I hate this box." Three minute pause. "Look how cool! This is the best box EVER!" "That second part was repeated for several hours.</p>
@@ -233,7 +246,7 @@
 								</div>
 								<div class="slide">
 									<div class="testi-image">
-										<a href="#"><img src="images/teamkessler.jpg" alt="Customer Testimonails"></a>
+										<a><img src="images/teamkessler.jpg" alt="Customer Testimonails"></a>
 									</div>
 									<div class="testi-content">
 										<p>I’m absolutely in love with a kit that teaches my kiddos something so valuable, and then asks them to apply that knowledge and do something spectacular with it.</p>
@@ -245,7 +258,7 @@
 								</div>
 								<div class="slide">
 									<div class="testi-image">
-										<a href="#"><img src="images/teamprice.jpg" alt="Customer Testimonails"></a>
+										<a><img src="images/teamprice.jpg" alt="Customer Testimonails"></a>
 									</div>
 									<div class="testi-content">
 										<p>Coming up with an innovation is hard work but I see more and more how valuable engaging in the process is for my kids.</p>
@@ -271,15 +284,7 @@
 				<div class="footer-widgets-wrap clearfix">
 					<div class="col_one_third">
 						<div class="widget clearfix">
-							<img src="images/logonomascot.png" alt="" class="footer-logo">
-							<!--<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>-->
-							<!--<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">-->
-							<!--<address>
-									<strong>Headquarters:</strong><br>
-									795 Folsom Ave, Suite 600<br>
-									San Francisco, CA 94107<br>
-								</address>-->
-							<!--<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>-->
+							<img src="images/twocolorlogowhite.svg" alt="" class="footer-logo">
 							<abbr title="Email Address"><strong>Email us : </strong></abbr> rumble@rumblelab.com
 						</div>
 					</div>
@@ -292,7 +297,7 @@
 								<li><a href="#testimonials">Testimonials</a></li>
 								<!--<li><a href="build.html">Build Pages</a></li>-->
 								<li><a href="/shop.html">Shop</a></li>
-								<li><a href="#">FAQ</a></li>
+								<li><a href="/faq.html">FAQ</a></li>
 							</ul>
 						</div>
 					</div>
@@ -339,7 +344,7 @@
 		<div class="container clearfix">
 			<div class="col_half">
 				Copyrights &copy; 2017 All Rights Reserved by RumbleLab.<br>
-				<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+				<div class="copyright-links"><a href="/terms.html">Terms of Use</a> / <a href="/privacy.html">Privacy Policy</a></div>
 			</div>
 			<div class="col_half col_last tright">
 				<div class="fright clearfix">
@@ -351,25 +356,12 @@
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
-					<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-					<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
-					<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
-					<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
+					<a href="#" class="social-icon si-small si-borderless si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
 							</a>
 				</div>
 				<div class="clear"></div>
-				<!--<i class="icon-envelope2"></i> rumble@rumblelab.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype-->
 				<i class="icon-envelope2"></i><a class="email-link" href="mailto:rumble@rumblelab.com"> rumble@rumblelab.com</a></span>
 			</div>
 		</div>
