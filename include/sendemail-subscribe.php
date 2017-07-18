@@ -2,8 +2,8 @@
 
 require_once('phpmailer/PHPMailerAutoload.php');
 
-$apiKey = '9084de3d533812184a53480e583e6fd8-us5'; // Your MailChimp API Key
-$listId = '69350e983d'; // Your MailChimp List ID
+$apiKey = '7d147588ae181d567e1c93119386a10d-us12'; // Your MailChimp API Key
+$listId = '9b4c2cd923'; // Your MailChimp List ID
 
 $toemails = array();
 
